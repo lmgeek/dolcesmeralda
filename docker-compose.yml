@@ -1,0 +1,9 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dolcesmeralda
+    restart: unless-stopped
+    ports:
+      - "80:80"
