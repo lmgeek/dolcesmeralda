@@ -6,4 +6,4 @@ services:
     container_name: dolcesmeralda
     restart: unless-stopped
     ports:
-      - "80:80"
+      - "80:3000"
